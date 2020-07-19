@@ -16,6 +16,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),daisy)
+ifeq ($(TARGET_DEVICE),sakura daisy)
 
 endif

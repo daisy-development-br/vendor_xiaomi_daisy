@@ -56,7 +56,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8953-common/proprietary/lib/libwfduibcsinkinterface.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfduibcsinkinterface.so \
     vendor/xiaomi/msm8953-common/proprietary/lib/libwfduibcsrc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfduibcsrc.so \
     vendor/xiaomi/msm8953-common/proprietary/lib/libwfduibcsrcinterface.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfduibcsrcinterface.so \
-    vendor/xiaomi/msm8953-common/proprietary/lib/libqti-util.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqti-util.so \
     vendor/xiaomi/msm8953-common/proprietary/lib/soundfx/libasphere.so:$(TARGET_COPY_OUT_SYSTEM)/lib/soundfx/libasphere.so \
     vendor/xiaomi/msm8953-common/proprietary/lib/soundfx/libdirac.so:$(TARGET_COPY_OUT_SYSTEM)/lib/soundfx/libdirac.so \
     vendor/xiaomi/msm8953-common/proprietary/lib64/libFileMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libFileMux.so \
@@ -67,7 +66,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libsdm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-disp-apis.so \
     vendor/xiaomi/msm8953-common/proprietary/lib64/libwfdclient.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwfdclient.so \
     vendor/xiaomi/msm8953-common/proprietary/lib64/libwfdnative.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwfdnative.so \
-    vendor/xiaomi/msm8953-common/proprietary/lib64/libqti-util.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libqti-util.so \
     vendor/xiaomi/msm8953-common/proprietary/lib64/soundfx/libasphere.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/soundfx/libasphere.so \
     vendor/xiaomi/msm8953-common/proprietary/product/bin/dpmd:$(TARGET_COPY_OUT_PRODUCT)/bin/dpmd \
     vendor/xiaomi/msm8953-common/proprietary/product/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_PRODUCT)/etc/dpm/dpm.conf \
@@ -771,49 +769,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libkeymasterdeviceutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterdeviceutils.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libkeymasterprovision.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterprovision.so \
-    vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libkeymasterutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterutils.so \
-    vendor/xiaomi/msm8953-common/proprietary/lib/android.hardware.thermal@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.thermal@1.0.so \
-    vendor/xiaomi/msm8953-common/proprietary/lib/hw/android.hardware.thermal@1.0-impl.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/android.hardware.thermal@1.0-impl.so \
-    vendor/xiaomi/msm8953-common/proprietary/lib/hw/thermal.msm8953.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/thermal.msm8953.so \
-    vendor/xiaomi/msm8953-common/proprietary/lib64/hw/android.hardware.thermal@1.0-impl.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/android.hardware.thermal@1.0-impl.so \
-    vendor/xiaomi/msm8953-common/proprietary/lib64/hw/thermal.msm8953.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/thermal.msm8953.so \
-    vendor/xiaomi/msm8953-common/proprietary/lib64/android.hardware.thermal@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.thermal@1.0.so \
-    vendor/xiaomi/msm8953-common/proprietary/vendor/bin/hw/android.hardware.thermal@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.thermal@1.0-service \
-    vendor/xiaomi/msm8953-common/proprietary/vendor/etc/init/android.hardware.thermal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.thermal@1.0-service.rc \
-    vendor/xiaomi/daisy/proprietary/vendor/etc/camera/ov12a10_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov12a10_chromatix.xml \
-    vendor/xiaomi/daisy/proprietary/vendor/etc/camera/imx486_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx486_chromatix.xml \
-    vendor/xiaomi/daisy/proprietary/vendor/lib/libactuator_dw9763_ofilm_ov12a10.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9763_ov12a10.so \
-    vendor/xiaomi/daisy/proprietary/vendor/lib/libactuator_dw9763_ov12a10.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx486_4k_preview_dw9763.so \
-    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_4k_preview_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_4k_preview_dw9763.so \
-    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_4k_video_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_4k_video_dw9763.so \
-    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_common.so \
-    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_cpp_hfr_60.so \
-    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_cpp_hfr_90.so \
-    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_cpp_hfr_120.so \
-    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_cpp_liveshot.so \
-    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_cpp_preview.so \
-    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_cpp_snapshot.so \
-    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_cpp_video.so \
-    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_cpp_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_cpp_video_4k.so \
-    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_default_preview_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_default_preview_dw9763.so \
-    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_default_video_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_default_video_dw9763.so \
-    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_hfr_60.so \
-    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_hfr_60_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_hfr_60_dw9763.so \
-    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_hfr_90.so \
-    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_hfr_90_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_hfr_90_dw9763.so \
-    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_hfr_120.so \
-    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_hfr_120_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_hfr_120_dw9763.so \
-    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_postproc.so \
-    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_preview.so \
-    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_snapshot.so \
-    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_video_4k.so \
-    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_zsl_preview_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_zsl_preview_dw9763.so \
-    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_zsl_video_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_zsl_video_dw9763.so \
-    vendor/xiaomi/daisy/proprietary/vendor/lib/libmmcamera_ov12a10.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov12a10.so \
-    vendor/xiaomi/daisy/proprietary/vendor/lib/libmmcamera_ov12a10_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov12a10_eeprom.so
+    vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libkeymasterutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterutils.so
 
 PRODUCT_PACKAGES += \
-    libbtconfigstore \
     libaudio_log_utils \
     libgpustats \
     libsdm-disp-vndapis \
